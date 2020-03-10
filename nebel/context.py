@@ -39,9 +39,9 @@ class NebelContext:
         self.MODULES_DIR = 'modules'
         self.IMAGES_DIR = 'images'
         self.ASSEMBLY_PREFIX = 'as'
-        self.PROCEDURE_PREFIX = 'p'
-        self.CONCEPT_PREFIX = 'c'
-        self.REFERENCE_PREFIX = 'r'
+        self.PROCEDURE_PREFIX = 'proc'
+        self.CONCEPT_PREFIX = 'con'
+        self.REFERENCE_PREFIX = 'ref'
 
     def initializeFromFile(self, configfile):
         # print 'Initializing from file: ' + configfile
